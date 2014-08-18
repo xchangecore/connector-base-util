@@ -1,0 +1,177 @@
+<not:GetMessagesResponse xmlns:not="http://uicds.org/NotificationService">
+  <not:NotificationMessage>
+    <b:Message xmlns:b="http://docs.oasis-open.org/wsn/b-2">
+      <str:WorkProduct xmlns:str="http://www.saic.com/precis/2009/06/structures">
+        <str:WorkProductIdentification>
+          <base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">Incident-6f95211a-abfd-4913-ab2b-0e5fc1677831</base:Identifier>
+          <base:Version xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Version>
+          <base:Type xmlns:base="http://www.saic.com/precis/2009/06/base">Incident</base:Type>
+          <base:Checksum xmlns:base="http://www.saic.com/precis/2009/06/base">Mon Aug 24 17:31:04 EDT 2009:2:12:2500043854</base:Checksum>
+          <base:State xmlns:base="http://www.saic.com/precis/2009/06/base">Active</base:State>
+        </str:WorkProductIdentification>
+        <str:WorkProductProperties>
+          <base:Created xmlns:base="http://www.saic.com/precis/2009/06/base">2009-08-24T17:31:02.921-04:00</base:Created>
+          <base:CreatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">user1@danzig</base:CreatedBy>
+          <base:LastUpdated xmlns:base="http://www.saic.com/precis/2009/06/base">2009-08-24T17:31:04.031-04:00</base:LastUpdated>
+          <base:LastUpdatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">user1@danzig</base:LastUpdatedBy>
+          <base:Kilobytes xmlns:base="http://www.saic.com/precis/2009/06/base">12</base:Kilobytes>
+          <base:MimeType xmlns:base="http://www.saic.com/precis/2009/06/base">application/uicds+xml</base:MimeType>
+          <base:AssociatedGroups xmlns:base="http://www.saic.com/precis/2009/06/base">
+            <base:Identifier>831f070d-1fda-40b7-8065-a9a53eb61bdf</base:Identifier>
+          </base:AssociatedGroups>
+        </str:WorkProductProperties>
+        <ns:Digest xmlns:ns="http://ucore.gov/ucore/2.0">
+          <ns:Event id="Event-2cba8cfd-6d97-460f-a0d6-0a78a711dcbf">
+            <ns:What ns:code="Incident" ns:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+          </ns:Event>
+          <ns:Location id="Location-216e41c4-d3f0-4b44-b777-ee65d1670cd5">
+            <ns:GeoLocation>
+              <ns:Point>
+                <ns1:Point ns1:id="GMLPoint-8cb96d51-6525-4276-b55f-1e3e4d0ddb4e" srsName="urn:ogc:def:crs:EPSG:6.6:4326" xmlns:ns1="http://www.opengis.net/gml/3.2">
+                  <ns1:pos>38.90867 -77.217399</ns1:pos>
+                </ns1:Point>
+              </ns:Point>
+            </ns:GeoLocation>
+          </ns:Location>
+          <ns:LocatedAt id="LocatedAt-24c4747d-36a1-417a-8e16-fb34bf768130">
+            <ns:EntityRef ref="Event-2cba8cfd-6d97-460f-a0d6-0a78a711dcbf"/>
+            <ns:LocationRef ref="Location-216e41c4-d3f0-4b44-b777-ee65d1670cd5"/>
+          </ns:LocatedAt>
+          <ns:OccursAt id="OccursAt-72d3d975-d000-4112-80e8-cdd89ef8a2c2">
+            <ns:Time>
+              <ns:TimeInstant>
+                <ns:Value>2009-08-25-04:00</ns:Value>
+              </ns:TimeInstant>
+            </ns:Time>
+            <ns:EventRef ref="Event-2cba8cfd-6d97-460f-a0d6-0a78a711dcbf"/>
+          </ns:OccursAt>
+        </ns:Digest>
+      </str:WorkProduct>
+    </b:Message>
+  </not:NotificationMessage>
+  <not:NotificationMessage>
+    <b:Message xmlns:b="http://docs.oasis-open.org/wsn/b-2">
+      <prof:ref xmlns:prof="http://uicds.org/ProfileService">
+        <prof:id>soi@core1.saic.com</prof:id>
+        <prof:name>SOI</prof:name>
+      </prof:ref>
+    </b:Message>
+  </not:NotificationMessage>
+  <not:NotificationMessage>
+    <b:Message xmlns:b="http://docs.oasis-open.org/wsn/b-2">
+      <prof:ref xmlns:prof="http://uicds.org/ProfileService">
+        <prof:id>soi@core1.saic.com</prof:id>
+        <prof:name>SOI</prof:name>
+      </prof:ref>
+    </b:Message>
+  </not:NotificationMessage>
+  <not:NotificationMessage>
+    <b:Message xmlns:b="http://docs.oasis-open.org/wsn/b-2">
+      <prof:ref xmlns:prof="http://uicds.org/ProfileService">
+        <prof:id>soi@core1.saic.com</prof:id>
+        <prof:name>SOI</prof:name>
+      </prof:ref>
+    </b:Message>
+  </not:NotificationMessage>
+  <not:NotificationMessage>
+    <b:Message xmlns:b="http://docs.oasis-open.org/wsn/b-2">
+      <str:WorkProduct xmlns:str="http://www.saic.com/precis/2009/06/structures">
+        <str:WorkProductIdentification>
+          <base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">Incident-56f094c8-511b-4dcc-b8d7-6b13970f3fe9</base:Identifier>
+          <base:Version xmlns:base="http://www.saic.com/precis/2009/06/base">1</base:Version>
+          <base:Type xmlns:base="http://www.saic.com/precis/2009/06/base">Incident</base:Type>
+          <base:Checksum xmlns:base="http://www.saic.com/precis/2009/06/base">Mon Aug 24 17:47:36 EDT 2009:1:5:288814544</base:Checksum>
+          <base:State xmlns:base="http://www.saic.com/precis/2009/06/base">Active</base:State>
+        </str:WorkProductIdentification>
+        <str:WorkProductProperties>
+          <base:Created xmlns:base="http://www.saic.com/precis/2009/06/base">2009-08-24T17:47:36.687-04:00</base:Created>
+          <base:CreatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">user1@danzig</base:CreatedBy>
+          <base:LastUpdated xmlns:base="http://www.saic.com/precis/2009/06/base">2009-08-24T17:47:36.687-04:00</base:LastUpdated>
+          <base:LastUpdatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">user1@danzig</base:LastUpdatedBy>
+          <base:Kilobytes xmlns:base="http://www.saic.com/precis/2009/06/base">5</base:Kilobytes>
+          <base:MimeType xmlns:base="http://www.saic.com/precis/2009/06/base">application/uicds+xml</base:MimeType>
+          <base:AssociatedGroups xmlns:base="http://www.saic.com/precis/2009/06/base">
+            <base:Identifier>acd350a4-25a3-4fd1-85f2-a25b88827ea7</base:Identifier>
+          </base:AssociatedGroups>
+        </str:WorkProductProperties>
+        <ns:Digest xmlns:ns="http://ucore.gov/ucore/2.0">
+          <ns:Event id="Event-eb974906-0b24-4b74-8631-77f568090493">
+            <ns:What ns:code="Incident" ns:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+          </ns:Event>
+          <ns:Location id="Location-d0333c9c-047e-426d-96e5-cedd3c5dbb45">
+            <ns:GeoLocation>
+              <ns:Point>
+                <ns1:Point ns1:id="GMLPoint-91916957-c941-4098-8628-a8a48af43e64" srsName="urn:ogc:def:crs:EPSG:6.6:4326" xmlns:ns1="http://www.opengis.net/gml/3.2">
+                  <ns1:pos>38.90867 -77.217399</ns1:pos>
+                </ns1:Point>
+              </ns:Point>
+            </ns:GeoLocation>
+          </ns:Location>
+          <ns:LocatedAt id="LocatedAt-4f911494-b861-43ad-9035-9b05459745a5">
+            <ns:EntityRef ref="Event-eb974906-0b24-4b74-8631-77f568090493"/>
+            <ns:LocationRef ref="Location-d0333c9c-047e-426d-96e5-cedd3c5dbb45"/>
+          </ns:LocatedAt>
+          <ns:OccursAt id="OccursAt-6913ef8b-80c6-4d15-b783-5bde5b9da569">
+            <ns:Time>
+              <ns:TimeInstant>
+                <ns:Value>2009-08-25-04:00</ns:Value>
+              </ns:TimeInstant>
+            </ns:Time>
+            <ns:EventRef ref="Event-eb974906-0b24-4b74-8631-77f568090493"/>
+          </ns:OccursAt>
+        </ns:Digest>
+      </str:WorkProduct>
+    </b:Message>
+  </not:NotificationMessage>
+  <not:NotificationMessage>
+    <b:Message xmlns:b="http://docs.oasis-open.org/wsn/b-2">
+      <str:WorkProduct xmlns:str="http://www.saic.com/precis/2009/06/structures">
+        <str:WorkProductIdentification>
+          <base:Identifier xmlns:base="http://www.saic.com/precis/2009/06/base">Incident-6f95211a-abfd-4913-ab2b-0e5fc1677831</base:Identifier>
+          <base:Version xmlns:base="http://www.saic.com/precis/2009/06/base">2</base:Version>
+          <base:Type xmlns:base="http://www.saic.com/precis/2009/06/base">Incident</base:Type>
+          <base:Checksum xmlns:base="http://www.saic.com/precis/2009/06/base">Mon Aug 24 17:31:04 EDT 2009:2:12:2500043854</base:Checksum>
+          <base:State xmlns:base="http://www.saic.com/precis/2009/06/base">Active</base:State>
+        </str:WorkProductIdentification>
+        <str:WorkProductProperties>
+          <base:Created xmlns:base="http://www.saic.com/precis/2009/06/base">2009-08-24T17:31:02.921-04:00</base:Created>
+          <base:CreatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">user1@danzig</base:CreatedBy>
+          <base:LastUpdated xmlns:base="http://www.saic.com/precis/2009/06/base">2009-08-24T17:31:04.031-04:00</base:LastUpdated>
+          <base:LastUpdatedBy xmlns:base="http://www.saic.com/precis/2009/06/base">user1@danzig</base:LastUpdatedBy>
+          <base:Kilobytes xmlns:base="http://www.saic.com/precis/2009/06/base">12</base:Kilobytes>
+          <base:MimeType xmlns:base="http://www.saic.com/precis/2009/06/base">application/uicds+xml</base:MimeType>
+          <base:AssociatedGroups xmlns:base="http://www.saic.com/precis/2009/06/base">
+            <base:Identifier>831f070d-1fda-40b7-8065-a9a53eb61bdf</base:Identifier>
+          </base:AssociatedGroups>
+        </str:WorkProductProperties>
+        <ns:Digest xmlns:ns="http://ucore.gov/ucore/2.0">
+          <ns:Event id="Event-a8f3cd1d-df93-4615-9059-192e1edeb777">
+            <ns:What ns:code="Incident" ns:codespace="http://ucore.gov/ucore/2.0/codespace/"/>
+          </ns:Event>
+          <ns:Location id="Location-e76aca13-cd6a-43e9-b706-ed01e268a41e">
+            <ns:GeoLocation>
+              <ns:Point>
+                <ns1:Point ns1:id="GMLPoint-c4996429-86a2-40e6-9eba-e7cdfe38c5c5" srsName="urn:ogc:def:crs:EPSG:6.6:4326" xmlns:ns1="http://www.opengis.net/gml/3.2">
+                  <ns1:pos>38.90867 -77.217399</ns1:pos>
+                </ns1:Point>
+              </ns:Point>
+            </ns:GeoLocation>
+          </ns:Location>
+          <ns:LocatedAt id="LocatedAt-4ea0f592-c9c3-4cdb-8b96-bd3c56cf0ae2">
+            <ns:EntityRef ref="Event-a8f3cd1d-df93-4615-9059-192e1edeb777"/>
+            <ns:LocationRef ref="Location-e76aca13-cd6a-43e9-b706-ed01e268a41e"/>
+          </ns:LocatedAt>
+          <ns:OccursAt id="OccursAt-e5fa5c42-8f72-44c0-9fe5-35f341537936">
+            <ns:Time>
+              <ns:TimeInstant>
+                <ns:Value>2009-08-25-04:00</ns:Value>
+              </ns:TimeInstant>
+            </ns:Time>
+            <ns:EventRef ref="Event-a8f3cd1d-df93-4615-9059-192e1edeb777"/>
+          </ns:OccursAt>
+        </ns:Digest>
+      </str:WorkProduct>
+    </b:Message>
+  </not:NotificationMessage>
+</not:GetMessagesResponse>
+
