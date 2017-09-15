@@ -2,28 +2,34 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <version>${clients-util.version}</version>
+    <version>1.0.0</version>
+<!--
     <parent>
         <groupId>com.saic.uicds.clients</groupId>
         <artifactId>com.saic.uicds.clients</artifactId>
         <version>1.0</version>
     </parent>
+-->
+
     <packaging>jar</packaging>
     <groupId>com.saic.uicds.clients</groupId>
     <artifactId>com.saic.uicds.clients.util</artifactId>
     <name>UICDS Client Utility Classes</name>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.4</version>
         </dependency>
+<!--
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
-            <version>${spring.version}</version>
+            <version>3.0.6.RELEASE</version>
             <scope>test</scope>
         </dependency>
+-->
         <dependency>
             <groupId>org.springframework.ws</groupId>
             <artifactId>spring-oxm</artifactId>
@@ -52,19 +58,29 @@
             <version>3.1</version>
         </dependency>
         <dependency>
-            <groupId>${em.groupId}</groupId>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.4.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.xmlbeans</groupId>
+            <artifactId>xmlbeans</artifactId>
+            <version>2.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.saic.uicds.core.em</groupId>
             <artifactId>com.saic.uicds.core.em.xmlbeans-em</artifactId>
-            <version>${xmlbeans-em.version}</version>
+            <version>1.1.4</version>
         </dependency>
         <dependency>
-            <groupId>${infrastructure.groupId}</groupId>
+            <groupId>com.saic.uicds.core.infrastructure</groupId>
             <artifactId>com.saic.uicds.core.infrastructure.xmlbeans-infrastructure</artifactId>
-            <version>${xmlbeans-infrastructure.version}</version>
+            <version>1.2.0</version>
         </dependency>
         <dependency>
-            <groupId>${em.groupId}</groupId>
+            <groupId>com.saic.uicds.core.em</groupId>
             <artifactId>com.saic.uicds.core.em.xmlbeans-edxl_rm</artifactId>
-            <version>${xmlbeans-edxl_rm.version}</version>
+            <version>1.0.0</version>
         </dependency>
     </dependencies>
 </project>
